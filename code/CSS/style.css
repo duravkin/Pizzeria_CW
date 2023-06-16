@@ -1,0 +1,85 @@
+body{
+    padding-top: 55px;
+    background: #FFF6EB;
+}
+nav.fixed-top{
+    padding: 7px 10px;
+    margin: 0;
+    box-shadow: 0 0 5px 1px darkgray;
+    background: #944F00;
+}
+nav a{
+    padding-right: 10px;
+    color: #fff;
+    text-decoration: none;
+}
+nav a:hover {
+    color: #FF8800;
+    text-decoration: underline;
+}
+nav img{
+    width: 45px;
+    margin-right: 10px;
+}
+nav img:hover{
+    transform: rotate(14deg);
+}
+
+footer{
+    padding-top: 20px;
+}
+.container{
+    padding: 25px;
+}
+.card{
+    height: 100%;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 1px darkgray;
+    padding: 10px;
+    padding-bottom: 20px;
+}
+.row {
+    margin-bottom: 30px;
+}
+.col-3 {
+    margin-top: 20px;
+}
+
+.table{
+    margin: 20px;
+    border: 3px solid #5D6580;
+}
+.table th {
+    font-weight: bold;
+    padding: 5px;
+    background: #efefef;
+    border: 1px solid #dddddd;
+}
+.table td{
+    padding: 5px 10px;
+    border: 1px solid #eee;
+    text-align: left;
+}
+.table tr:nth-child(odd){
+    background: #fff;
+}
+.table tr:nth-child(even){
+    background: #F7F7F7;
+}
+.table tr:hover td {
+  background: #FFF6EB;
+}
+.buy{
+    margin-left: 20px;
+    width: 100%;
+}
+.table button{
+    width: 100%;
+}
+.table input{
+    width: 100%;
+}
+.table select{
+    width: 100%;
+}
